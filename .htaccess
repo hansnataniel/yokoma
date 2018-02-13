@@ -1,0 +1,16 @@
+AddType application/x-httpd-php54 php
+
+<IfModule mod_php5.c>
+	php_value max_execution_time 259200
+	php_value max_input_time 259200
+	php_value upload_max_filesize 20M
+</IfModule>
+
+<IfModule mod_rewrite.c>
+	Options +FollowSymlinks
+    RewriteEngine On
+
+    # Rewrite to 'public' folder
+    RewriteCond %{REQUEST_URI} !public/
+    RewriteRule (.*) public/$1 [L]
+</IfModule>

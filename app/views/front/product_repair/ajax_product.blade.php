@@ -1,0 +1,11 @@
+<div class="edit-group">
+	<div class="edit-left">
+		{{Form::label('qty', 'Qty')}}
+	</div><!--
+	--><div class="edit-right">
+		{{Form::input('number', 'qty', 1, array('class'=>'small-text', 'required', 'min'=>1))}}
+		<span class="required-tx">
+			*Numeric, Min = 1
+		</span>
+	</div>
+</div>

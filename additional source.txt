@@ -1,0 +1,4 @@
+- Penambahan pengecekan di controller photocrop (pengecekkan saat ukuran gambar terlalu kecil, sehingga tidak memunculkan scroll)
+- Penambahan forgot password khusus back end
+- Penambahan pengecekan di login front end (ketika ada user login, halaman yang muncul sesudahnya di pisahkan berdasarkan "aktif, banned, atau belum di activation")
+- Penambahan sistem crop (dimana kalau ada gangguan saat crop yang memungkinkan orang keluar tanpa melakukan crop, saat dia masuk, akan langsung di arahkan ke halaman crop yang dia tinggalkan)

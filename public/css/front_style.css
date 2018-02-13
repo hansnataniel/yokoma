@@ -1,0 +1,204 @@
+@charset "utf-8";
+
+/* IMPORT RESET */
+@import url("normalize.css");
+
+* { 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	*behavior: url(../js/boxsizing.htc); 
+	/*	
+		If you need support for IE7 and lower make 
+		sure the boxsizing.htc file is linked properly.
+		More info here:  https://github.com/Schepp/box-sizing-polyfill
+	*/
+}
+
+/*Scrollbar CSS*/
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+ 
+::-webkit-scrollbar-track {
+    background: #fff;
+}
+ 
+::-webkit-scrollbar-thumb {
+    background: #0697db;
+}
+
+/*font*/
+@font-face
+{
+    font-family: sans;
+    src: url('../fonts/OpenSans.ttf');
+}
+
+@font-face
+{
+    font-family: myriad;
+    src: url('../fonts/MyriadPro-Regular.otf');
+}
+
+/* Global */
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	color: #074995;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #00aeef;
+	text-decoration: none;
+}
+
+a:focus {
+	outline: 0;
+}
+
+/* Presets */
+.none { /* this class is used to hid the skip to content link at the beginning of the document for accessibility */
+	display: none;
+}
+
+.clear {
+	clear: both;
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+.aligncenter {
+	text-align: center;
+}
+
+.alignleft {
+	text-align: left;
+}
+
+.alignright {
+	text-align: right;
+}
+
+input:focus {
+	outline: 0px;
+}
+
+.font-family1 {
+	font-family: sans;
+}
+
+.font-family2 {
+	font-family: myriad;
+}
+
+.font-family3 {
+	font-size: 'verdana';
+}
+
+.color1 {
+	color: #5c5c5c;
+}
+
+.color2 {
+	color: #074995;
+}
+
+.background1 {
+	color: #5c5c5c;
+}
+
+.background2 {
+	color: #074995;
+}
+
+/*Pagination*/
+.pagination {
+	position: relative;
+	display: block;
+	font-size: 0px;
+	padding: 0px;
+	font-family: myriad;
+}
+
+.pagination .mid {
+	text-align: center;
+}
+
+.pagination .mid > span {
+	top: 2px;
+	position: relative;
+	display: block;
+}
+
+.pagination .mid > div {
+	top: 1px;
+	position: relative;
+	display: block;
+}
+
+.pagination-item {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 16px;
+	color: #5c5c5c;
+	margin-right: 10px;
+	min-width: 24px;
+	padding: 0px 5px;
+	height: 24px;
+	border: 1px solid transparent;
+	-webkit-transition: border 0.3s, color 0.3s;
+	-moz-transition: border 0.3s, color 0.3s;
+	-ms-transition: border 0.3s, color 0.3s;
+	transition: border 0.3s, color 0.3s;
+}
+
+.pagination-current {
+	border: 1px solid #0697db;
+	color: #0697db;
+}
+
+.pagination-item:hover {
+	border: 1px solid #0697db;
+	color: #0697db;
+	-webkit-transition: border 0.3s, color 0.3s;
+	-moz-transition: border 0.3s, color 0.3s;
+	-ms-transition: border 0.3s, color 0.3s;
+	transition: border 0.3s, color 0.3s;
+}
+
+
+/* Desktops and laptops */
+@media screen and (min-width : 1224px) {
+
+}
+
+/* Tablet */
+@media screen and (min-width : 768px) and (max-width: 1024px) {
+
+}
+
+/* Mobile */
+@media screen and (min-width : 500px) and (max-width: 768px) {
+
+}
+
+@media screen and (min-width : 320px) and (max-width: 500px) {
+
+}

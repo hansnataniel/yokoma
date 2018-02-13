@@ -1,0 +1,92 @@
+.editor {
+	position: relative;
+	font-size: 14px;
+	font-family: 'verdana';
+	line-height: 18px;
+	color: #5c5c5c;
+}
+
+.editor h1 {
+	font-size: 2em;
+	line-height: 36px;
+	margin: 0;
+}
+
+.editor h2 {
+	font-size: 1.5em;
+	line-height: 32px;
+	margin: 0;
+}
+
+.editor h3 {
+	font-size: 1.33em;
+	line-height: 28px;
+	margin: 0;
+}
+
+.editor h4 {
+	font-size: 1.17em;
+	line-height: 26px;
+	margin: 0;
+}
+
+.editor h5 {
+	font-size: 0.83em;
+	line-height: 24px;
+	margin: 0;
+}
+
+.editor h6 {
+	line-height: 20px;
+	font-size: 0.63em;
+	margin: 0;
+}
+
+.editor p {
+	font-size: 14px;
+	font-family: 'verdana';
+	line-height: 20px;
+}
+
+.editor ul {
+
+}
+
+.editor ol {
+	
+}
+
+.editor li {
+	line-height: 20px;
+	
+}
+
+.editor strong {
+	
+}
+
+.editor em {
+	
+}
+
+.editor u {
+
+}
+
+.editor a {
+	text-decoration: none;
+	font-family: 'verdana';
+	font-size: 14px;
+	color: #0696db;
+}
+
+.editor a:hover {
+	text-decoration: underline;
+}
+
+.editor img {
+	max-width: 100% !important;
+	height: auto !important;
+	display: block;
+	border: solid 1px #5c5c5c;
+}
